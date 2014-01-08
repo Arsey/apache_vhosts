@@ -24,3 +24,12 @@ Especially useful for Vagrant.
 		}
 		]
     end
+
+Also you can use this cookbook with librarian-chef on install. Just add
+
+	site 'http://community.opscode.com/api/v1'
+	...
+	cookbook "apache_vhosts"
+	...
+	
+to the Cheffile
