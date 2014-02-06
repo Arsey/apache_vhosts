@@ -5,5 +5,6 @@ node['apache_vhosts'].each{|vhost|
 		docroot vhost['path']
 		server_name vhost['server_name']
 		server_email vhost['server_email']
+		server_alias vhost['server_alias']
 	end
 }

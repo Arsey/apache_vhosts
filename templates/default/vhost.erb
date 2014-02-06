@@ -1,6 +1,8 @@
 <VirtualHost *:80>
-   ServerAdmin <%= @params[:server_email] %>
    ServerName <%= @params[:server_name] %>
+   <%= "ServerAlias #{@params[:server_alias]}" if @params[:server_alias]%>
+   <%= "ServerAdmin #{@params[:server_email]}" if @params[:server_email]%>
+   
    DocumentRoot <%= @params[:docroot] %>
     
    <Directory <%= @params[:docroot] %>>
