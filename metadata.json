@@ -1,6 +1,6 @@
 {
   "name": "apache_vhosts",
-  "version": "20140108",
+  "version": "20140206",
   "description": "Helps to configure virtual hosts for apache2",
   "long_description": "Cookbook For Virtual Hosts",
   "maintainer": "Arsey",
