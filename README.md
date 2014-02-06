@@ -15,6 +15,7 @@ Especially useful for Vagrant.
 			:path=>"/var/www/app1",
 			:server_name=>"app1.local",
 			:server_email=>"serveremail@app1.com"
+			:server_alias=>"www.app1.local"
 		},
 		{
 			:app=>"app2",
